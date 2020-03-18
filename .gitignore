@@ -1,8 +1,10 @@
 # These are my to-do lists. No more
 todo.md
 result_task.md
+vkapi.md
 
 # All logos resources
 *.psd
 
 config.json
+__pycache__/

@@ -1,13 +1,12 @@
 from json import loads
-
+from DotDict import DotDict
 
 def load():
     """
     Return content of config
     """
-    CONFIG_PATH = "code/config.json"
-
-    with open(CONFIG_PATH) as file:
+    
+    with open("./code/config.json") as file:
 
         json_content = loads(file.read())
-        return json_content
+        return DotDict(json_content)
