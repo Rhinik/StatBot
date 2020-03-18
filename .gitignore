@@ -7,4 +7,5 @@ vkapi.md
 *.psd
 
 config.json
+db.sqlite3
 __pycache__/
